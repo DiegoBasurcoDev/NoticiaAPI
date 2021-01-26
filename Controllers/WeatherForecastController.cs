@@ -35,5 +35,10 @@ namespace NoticiaAPI.Controllers
             })
             .ToArray();
         }
+
+        [HttpGet("Division/{num1}/{num2}")]
+        public ActionResult<int> Dividir(int num1, int num2){
+            return num1/num2;
+        }
     }
 }
