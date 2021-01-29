@@ -92,7 +92,7 @@ namespace Controllers
                 return Ok(new
                 {
                     Status = 1,
-                    Message = "Eliminado con Exito"
+                    Message = "Autor Eliminado"
                 });
             }
             catch (Exception ex)
